@@ -15,10 +15,10 @@ public class Praktikum2 {
     public static void main(String[] args) {
         double nilai = 0;
         int jumlahAngka = 0;
-        boolean angka = true;
+
         Scanner sc = new Scanner(System.in);
         try {
-            while (angka) {
+            while (true) {
                 nilai += sc.nextInt();
                 jumlahAngka += 1;
             }
